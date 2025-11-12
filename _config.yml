@@ -5,9 +5,8 @@
 # NOTE: it looks like you need to rebuild + repush everytime you update this _config.yml file
 
 ### Site Settings ###
-title               : IS445 Jekyll Template 
-description         : >-
-                      I am definitely not a corgi!
+title: "Anveksha’s Data Visualization Blog"
+description: "Altair and Vega-Lite projects from IS445"
 baseurl             : ""   # Change to empty quotes if you are hosting your site at <your-username>.github.io directly,
 #                                             otherwise will be hosted at <your-username>.github.io/{{base_url}}
 repository          :                     # Change to <your-username> for github OR, if that doesn't work <your-username>/<your-username>.github.io (or remove it if you don't need remote projects) -- for example, I would put "jnaiman" without the quotes after the ":" here
@@ -34,13 +33,14 @@ nav_exclude:                                            # The following paths ar
 
 ### Author Info ###
 author:
-  name              : A. P. Corgi
-  image             : https://media.tenor.com/8RcIoWTKYR4AAAAe/scuze-corgi.png
+  name: Anveksha Pandey
+  image: https://avatars.githubusercontent.com/u/  # (you can leave this blank or add a photo later)
+  github: AnvekshaPandey
 #  behance           : your_username
 # dribbble          : your_username
-  email             : username@domain.com
+ # email             : username@domain.com
 #  facebook          : your_username
-  github            : jnaiman # JPN
+ # github            : jnaiman # JPN
 # gitlab            : your_username
 # instagram         : your_username
 # kaggle            : your_username
@@ -109,7 +109,9 @@ defaults:
       type: "posts"
     values:
       comments: false                                   # Set to true to enable disqus comments
-
+paginate: 5
+paginate_path: "/page:num/"
+layout: home
 
 ### Exclude from processing ###
 ## Add yours here if you have other stuff in your github.io page!!!**
